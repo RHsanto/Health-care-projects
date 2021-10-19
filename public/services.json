@@ -40,27 +40,5 @@
     "name": "Telehealth",
     "description": "Our telehealth visits enable you to safely have an appointment with a provider in the comfort of your home by clicking on a link to join them for a video call. Like an in-person visit, our provider can address your concerns and questions. Insurance is accepted, but patients may also choose self-pay for $49 (credit or debit).",
     "img": "https://media.istockphoto.com/photos/online-consultation-with-their-doctor-picture-id1245131025?b=1&k=20&m=1245131025&s=170667a&w=0&h=UfFnE-NI7GBFnb5n1IN9vM3e0K_dgSF7abilqCR-lgk="
-  },
-
-  {
-    "id": 7,
-    "designation": "Pediatrician",
-    "name": "Sussie Wolff",
-    "description": "Dr.Sussie Wolff pediatrician is a medical doctor who manages the physical, behavioral, and mental care for children from birth until age 18. A pediatrician is trained to diagnose and treat a broad range of childhood illnesses, from minor health problems to serious diseases.",
-    "img": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZG9jdG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-  },
-  {
-    "id": 8,
-    "designation": "General Doctor",
-    "name": "George Button",
-    "description": "Dr. George Button a general practitioner manages types of illness that present in an undifferentiated way at an early stage of development, which may require urgent intervention.[1] The holistic approach of general practice aims to take into consideration the biological, psychological, and social factors relevant to the care of each patient's illness. Their duties are not confined to specific organs of the body, and they have particular skills in treating people with multiple health issues. They are trained to treat patients of any age and sex to levels of complexity that vary between countries.",
-    "img": "https://media.istockphoto.com/photos/online-consultation-with-their-doctor-picture-id1245131025?b=1&k=20&m=1245131025&s=170667a&w=0&h=UfFnE-NI7GBFnb5n1IN9vM3e0K_dgSF7abilqCR-lgk="
-  },
-  {
-    "id": 9,
-    "designation": "Neurosurgeon",
-    "name": "Dr. Megan L. Washington",
-    "description": "Dr. Washington joined TrustCare in 2021. She earned her Bachelor of Science in Biology and Comparative Literature from The University of Georgia in 2004 and her medical degree from the Kansas City University of Medicine and Biosciences in 2010. Dr. Washington completed her pediatric training at Saint Louis University/Cardinal Glennon Children’s Hospital. Prior to joining TrustCare, Dr. Washington practiced at Merit Health Pediatrics in Flowood, Mississippi. She has a special interest in infant and child sleep concerns, breast feeding, ADHD, and behavior issues. Dr. Washington is married to Dr. Chad Washington, a neurosurgeon at The University of Mississippi Medical Center, and they have three boys.",
-    "img": "https://media.istockphoto.com/photos/online-consultation-with-their-doctor-picture-id1245131025?b=1&k=20&m=1245131025&s=170667a&w=0&h=UfFnE-NI7GBFnb5n1IN9vM3e0K_dgSF7abilqCR-lgk="
   }
 ]

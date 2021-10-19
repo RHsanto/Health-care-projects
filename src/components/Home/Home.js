@@ -3,14 +3,14 @@ import Slider from './Slider/Slider';
 import './Home.css'
 import Team from './Team/Team';
 import About from '../About/About';
-import Footer from '../Footer/Footer';
+
 const Home = () => {
   const [services,setServices] = useState([]);
 
   useEffect(()=>{
     fetch('./services.json')
     .then(res => res.json())
-    .then(data => setServices(data.slice(0,3)))
+    .then(data => setServices(data.slice(3,6)))
   },[])
   return (
     <div>
@@ -18,7 +18,8 @@ const Home = () => {
       <About></About>
       <div className="container">
      <div className="row ms-5 gap-4">
-       <h1>Our Services</h1>
+     <h1 className='my-5'><span className='border-3 border-bottom border-info fw-bold'>Our   Services</span> </h1>
+
      {services.map(service =>
     <div class="card text-start" style={{width: '24rem'}}>
     <img  src={service.img} class="card-img-top img" alt="..."/>

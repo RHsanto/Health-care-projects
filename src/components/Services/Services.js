@@ -12,7 +12,8 @@ const Services = () => {
     <div className='my-5'>
       <div className="container">
      <div className="row gap-4">
-       <h1>Our Services</h1>
+     <h1 className='my-5'><span className='border-3 border-bottom border-info fw-bold'>Our   Services</span> </h1>
+
      {services.map(service =>
     <div class="card text-start" style={{width: '24rem'}}>
     <img  src={service.img} class="card-img-top img" alt="..."/>

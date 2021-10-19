@@ -6,8 +6,8 @@ import doctor4 from '../../../images/dr-5.jpg'
 const Team = () => {
   return (
     <div>
-      <div className="title ">
-      <h1 className='my-5'>Our <span className='text-primary fw-bold'> Team</span></h1>
+      <div className="title">
+      <h1 className='my-5'><span className='border-3 border-bottom border-info fw-bold'>Our Team</span> </h1>
 
       </div>
     <div className="container my-5">
