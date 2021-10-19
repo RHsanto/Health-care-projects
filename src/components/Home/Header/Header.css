@@ -1,0 +1,37 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+  text-align: left;
+  margin-left: 80px;
+}
+.icon i{
+font-size: 2em;
+}
+.col-4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.items{
+  list-style: none;
+  margin-left: 10px;
+  font-size: 14px;
+ 
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 18px;
+  color: black;
+}
+
+.login-img{
+  width: 50px;
+}
+
+.user-name{
+  font-size: 14px !important;
+}

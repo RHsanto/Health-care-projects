@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "message": "For the better you",
+    "name": "Digital X-Rays",
+    "description": " Our urgent care services are designed to give our patients the highest level of care. All of our clinics are outfitted with state-of-the-art digital X-ray services to improve the quality of images, process results quicker and provide more accurate diagnostics Digital X-rays are a form  radiography that uses X-ray–sensitive plates to directly capture data during the patient examination, immediately transferring it to a computer system. Advantages include time efficiency through bypassing chemical processing and the ability to digitally transfer and enhance images.",
+    "img": "https://media.istockphoto.com/photos/doctor-diagnosing-patients-health-on-asthma-lung-disease-covid19-or-picture-id1217561470?b=1&k=20&m=1217561470&s=170667a&w=0&h=ja2hslkRN5WxeCtCBY4V_0rFefstKh1_hHjvan-ddks="
+  },
+  {
+    "id": 2,
+    "message": "For the better you",
+    "name": "Direct Primary Care",
+    "description": "Direct Primary Care (DPC) is a modern healthcare model that makes managing your healthcare so much easier and more affordable. Instead of traditional care with co-pay, deductible and unexpected medical bills, DPC is built on a monthly subscription membership (much like a gym membership). You receive extended time with your doctor including unlimited clinic visits by appointment. DPC includes virtual care so you can access your doctor by phone, text or video chat. TrustCare now offers DPC as TrustCare Prime.",
+    "img": "https://media.istockphoto.com/photos/caregiver-assist-senior-woman-at-home-picture-id1296176562?b=1&k=20&m=1296176562&s=170667a&w=0&h=gHya2Ee_SnnfngzSvzRra93uSlb7xG76apicnILHvIw="
+  },
+  {
+    "id": 3,
+    "message": "For the better you",
+    "name": "  COVID-19 Tests",
+    "description": "Rapid Swab TestThe Sofia 2 SARS FIA is an antigen test performed with a swab of your nasal passages to determine if you currently have an active COVID-19 infection. Tests are run at our in-clinic labs and results are same day. nasopharyngeal swab is a molecular RT-PCR test performed with a deep swab of your nasal passages to determine if you currently have an active COVID-19 infection. Tests are sent to a local lab and results are next day  but results times at our urgent care clinics vary based on lab volume.The COVID-19 rapid test qualitatively detects and differentiates IgM and IgG antibodies against SARS-CoV-2 in blood. (Positive results indicate a current, recent or prior infection. There can be false positives and false negatives). Results are provided during your visit.",
+    "img": "https://media.istockphoto.com/photos/doctor-in-a-home-visit-to-a-senior-man-picture-id1289183630?b=1&k=20&m=1289183630&s=170667a&w=0&h=FMmzSvzUCtDAoqKn4idZNAfolbjsJFMigUI1IsnLhdc="
+  },
+  {
+    "id": 4,
+    "message": "For the better you",
+    "name": "  Dental services",
+    "description": "General dentists prevent, evaluate, diagnose, and treat diseases of the oral cavity, as well as maintain the function and appearance of the teeth. Many oral diseases and abnormalities can indicate other diseases. A general dentist may refer patients to their physician or a specialist for further evaluation, or vice versa for treatment.Our residents come from all parts of the world, bringing you a global expertise coupled with the cutting edge research and knowledge of the University of Rochester Medical Center. There is no dental concern too small or large for the professionals at Eastman Dental sGeneral Dentistry Division.",
+    "img": "https://media.istockphoto.com/photos/concept-of-tasks-for-a-dentist-to-work-with-a-patient-picture-id1243689063?b=1&k=20&m=1243689063&s=170667a&w=0&h=FMTUeqGuDwm3QCuUeKpIK3_cQDOs4O-pGGzlnR9t0BA="
+  },
+  {
+    "id": 5,
+    "message": "For the better you",
+    "name": "  Orthopedics",
+    "description": "Orthopedics is a branch of medicine that focuses on the care of the musculoskeletal system. This system is made up of muscles and bones, as well as joints, ligaments, and tendons.A person who specializes in orthopedics is known as an orthopedist. Orthopedists use both surgical and nonsurgical approaches to treat a variety of musculoskeletal issues, such as sports injuries, joint pain, and back problems.",
+    "img": "https://media.istockphoto.com/photos/when-your-joints-just-arent-what-they-used-to-be-picture-id1256072707?b=1&k=20&m=1256072707&s=170667a&w=0&h=3-IiDeXZxSoXmp0mxV11irPVIMDARwrrtgQjAeQW-AI="
+  },
+  {
+    "id": 6,
+    "message": "For the better you",
+    "name": "Telehealth",
+    "description": "Our telehealth visits enable you to safely have an appointment with a provider in the comfort of your home by clicking on a link to join them for a video call. Like an in-person visit, our provider can address your concerns and questions. Insurance is accepted, but patients may also choose self-pay for $49 (credit or debit).",
+    "img": "https://media.istockphoto.com/photos/online-consultation-with-their-doctor-picture-id1245131025?b=1&k=20&m=1245131025&s=170667a&w=0&h=UfFnE-NI7GBFnb5n1IN9vM3e0K_dgSF7abilqCR-lgk="
+  },
+
+  {
+    "id": 7,
+    "designation": "Pediatrician",
+    "name": "Sussie Wolff",
+    "description": "Dr.Sussie Wolff pediatrician is a medical doctor who manages the physical, behavioral, and mental care for children from birth until age 18. A pediatrician is trained to diagnose and treat a broad range of childhood illnesses, from minor health problems to serious diseases.",
+    "img": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZG9jdG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": 8,
+    "designation": "General Doctor",
+    "name": "George Button",
+    "description": "Dr. George Button a general practitioner manages types of illness that present in an undifferentiated way at an early stage of development, which may require urgent intervention.[1] The holistic approach of general practice aims to take into consideration the biological, psychological, and social factors relevant to the care of each patient's illness. Their duties are not confined to specific organs of the body, and they have particular skills in treating people with multiple health issues. They are trained to treat patients of any age and sex to levels of complexity that vary between countries.",
+    "img": "https://media.istockphoto.com/photos/online-consultation-with-their-doctor-picture-id1245131025?b=1&k=20&m=1245131025&s=170667a&w=0&h=UfFnE-NI7GBFnb5n1IN9vM3e0K_dgSF7abilqCR-lgk="
+  },
+  {
+    "id": 9,
+    "designation": "Neurosurgeon",
+    "name": "Dr. Megan L. Washington",
+    "description": "Dr. Washington joined TrustCare in 2021. She earned her Bachelor of Science in Biology and Comparative Literature from The University of Georgia in 2004 and her medical degree from the Kansas City University of Medicine and Biosciences in 2010. Dr. Washington completed her pediatric training at Saint Louis University/Cardinal Glennon Children’s Hospital. Prior to joining TrustCare, Dr. Washington practiced at Merit Health Pediatrics in Flowood, Mississippi. She has a special interest in infant and child sleep concerns, breast feeding, ADHD, and behavior issues. Dr. Washington is married to Dr. Chad Washington, a neurosurgeon at The University of Mississippi Medical Center, and they have three boys.",
+    "img": "https://media.istockphoto.com/photos/online-consultation-with-their-doctor-picture-id1245131025?b=1&k=20&m=1245131025&s=170667a&w=0&h=UfFnE-NI7GBFnb5n1IN9vM3e0K_dgSF7abilqCR-lgk="
+  }
+]
