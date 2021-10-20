@@ -28,6 +28,7 @@ const SignUp = () => {
       <div className="row d-flex justify-content-center align-items-center mt-5">
         <div className="col-lg-6">
       <p className=' p-2 rounded fs-4 text-danger '>{error}</p>
+      {/* here signup from */}
          <form  onSubmit={handleSubmit}>
          <div className="form-floating mb-3">
             <input type="text" className="form-control"placeholder="Enter Your name " required/>
@@ -35,28 +36,19 @@ const SignUp = () => {
          </div>
         <div className="form-floating mb-3">
           <input  onBlur={handleEmailChange} type="email" className="form-control" id="floatingInput" placeholder="name@example.com" required/>
-          <label for="floatingInput">Email address</label>
+          <label htmlFor="floatingInput">Email address</label>
       </div>
          <div className="form-floating mb-3">
             <input  onBlur={handlePasswordChange} type="password" className="form-control" id="floatingPassword" placeholder="Password" required/>
-            <label for="floatingPassword">Password</label>
+            <label htmlFor="floatingPassword">Password</label>
          </div>
-         
-         
-        
-  <div className="form-check text-start">
-  Already a member? <Link to='/login'>Go to Login</Link>
-       <label className="form-check-label" for="flexCheckDefault">
-      
-       </label>
-      </div>
+         <p> Already a member? <Link to='/login'>Go to Login</Link></p>
 
-
-
-         <button type="submit" className="btn btn-info ">Register </button>
+        <button type="submit" className="btn btn-info ">Register </button>
          <hr />
          </form>
-         <button onClick={handleGoogleLogin}  className="btn btn-success mb-5" > Google</button>
+         {/* here google login button */}
+         <button onClick={handleGoogleLogin}  className="btn btn-success mb-5" >Sign in with <i className="fab fa-google"></i></button>
         </div>
       </div>
     </div>

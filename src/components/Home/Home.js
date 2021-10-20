@@ -18,7 +18,7 @@ const Home = () => {
       <Slider></Slider>
       <About></About>
       <div className="container">
-     <div className="row ms-5 gap-4">
+     <div className="row m-3 gap-4">
      <h1 className='my-5'><span className='border-3 border-bottom border-info fw-bold'>Our   Services</span> </h1>
 
      {services.map(service =>

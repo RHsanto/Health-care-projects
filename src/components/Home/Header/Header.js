@@ -65,8 +65,8 @@ const Header = () => {
   </div>
 
 
-    <div className="col-6">
-    <div className="  text-end me-3  ">
+    <div className="col-6 text-center">
+    <div className=" me-3  ">
 {/* here login ,signup & log out button  */}
         
 {
@@ -76,9 +76,9 @@ const Header = () => {
             <span className='user-name'>{user.displayName} </span>
            {user.emailVerified? <></>:
             <span className='user-name'>{user.email} </span>}
-            <button className='btn btn-outline-danger border-2 logout me-4' onClick={logOut}> Log-out</button> </>
+            <button className='btn btn-outline-danger border-2 logout m-2' onClick={logOut}> Log-out</button> </>
         :<>
-         <Link to="/login"><button className='btn btn-outline-primary me-3'>Login</button></Link>   <Link to='/signup'><button className='btn btn-success'> Sign up</button></Link></>
+         <Link to="/login"><button className='btn btn-outline-primary m-2'>Login</button></Link>   <Link to='/signup'><button className='btn btn-success'> Sign up</button></Link></>
         
      }
            </div>

@@ -19,8 +19,8 @@ const Team = () => {
     <div className="container my-5">
       <div className="row g-4">
       {teams.map(team =>
-   <div className="col-lg-3 col-sm-6">
-      <div key={team.id}
+   <div key={team.id} className="col-lg-3 col-sm-6">
+      <div 
     className="card border-0 shadow-lg text-start" >
     <img  src={team.img} className="card-img-top " alt="..."/>
     <div className="card-body">

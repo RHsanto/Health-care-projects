@@ -4,17 +4,12 @@ import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 
 const Login = () => {
-  const {signInUsingGoogle,handleEmailChange,handlePasswordChange,error,signInWithEmail,email,password}=useAuth();
+  const {signInUsingGoogle,handleEmailChange,handlePasswordChange,error,signInWithEmail}=useAuth();
   const location = useLocation();
   const history = useHistory();
   const redirect_uri = location.state?.from || '/';
 
-  const handleLogIn=e=>{
-    e.preventDefault();
-  signInWithEmail(email,password)
-  history.push(redirect_uri)
 
-  }
 
   const handleGoogleLogin=()=>{
     signInUsingGoogle()
@@ -26,11 +21,11 @@ const Login = () => {
   
   return (
     <div className="container">
-      <p className='text-danger fw-bold'>{error}</p>
+      <p className='text-danger fw-bold '>{error}</p>
       <div className="row d-flex justify-content-center align-items-center mt-5 ">
         <div className="col-6">
-  
-     <form onSubmit={handleLogIn} >
+  {/* here login submit from */}
+     <form onSubmit={signInWithEmail} >
           <div className="form-floating mb-3">
            <input  onBlur={handleEmailChange} type="email" className="form-control" id="floatingInput" placeholder="name@example.com" required />
               <label htmlFor="floatingInput">Email address</label>
@@ -45,8 +40,9 @@ const Login = () => {
      </form>
         </div>
       </div>
-
-    <button onClick={handleGoogleLogin}  className="btn btn-success mb-5" > Google</button>
+{/* here google login button */}
+    <button onClick={handleGoogleLogin}  className="btn btn-success mb-5" >
+    Sign in with <i className="fab fa-google"></i></button>
       </div>
   );
 };

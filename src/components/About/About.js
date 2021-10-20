@@ -5,6 +5,7 @@ import './About.css'
 const About = () => {
   return (
     <div className='m-5'>
+      {/* about section here */}
      <div className="container">
        <div className="row mt-5 d-flex justify-content-center align-items-center">
          <div className="col-lg-4 col-sm-6 border-bottom border-3 border-info">

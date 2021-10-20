@@ -16,9 +16,8 @@ const googleProvider = new GoogleAuthProvider();
 
 const signInUsingGoogle =()=>{
  return  signInWithPopup(auth,googleProvider)
- 
   .catch(error => {
-    setError('google');
+    setError(error.message);
     });
 }
 
@@ -53,7 +52,8 @@ useEffect(()=>{
       setError(' Password should be at least 6 characters');
       return;
     }
-
+     
+    
   
     isLogIn? signInWithEmail(email,password) :createNewUser(email,password);
 
@@ -61,7 +61,10 @@ useEffect(()=>{
   }
 // here processLogin
   const signInWithEmail=(email,password)=>{
-   return signInWithEmailAndPassword(auth,email,password)
+   signInWithEmailAndPassword(auth,email,password)
+   .then(result=>{
+     setUser(result.user)
+   })
      .catch(error => { 
      setError('')    
       });
