@@ -2,7 +2,7 @@ import React from 'react';
 import news1 from '../../images/sl.jpg'
 import news2 from '../../images/news-2.jpg'
 import news3 from '../../images/news-3.jpg'
-import news4 from '../../images/news-4.jpg'
+
 import './LatestNews.css'
 const LatestNews = () => {
   return (
@@ -60,23 +60,8 @@ const LatestNews = () => {
   </div>
 </div>
      </div>
-     <div className="col-8 mx-auto">
-     <div className="card mb-3" >
-  <div className="row  g-4 d-flex justify-content-center align-items-center text-start">
-    <div className="col-md-6 ">
-      <img src={news4} className="img-fluid rounded-start news-img" alt="..."/>
-    </div>
-    <div className="col-md-6">
-      <div className="card-body ">
-        <h2 className="card-title">Study finds link between very early stages of brain and heart disease</h2>
-        <p className="card-text">Collaboratively administrate turnkey channels whereas virtual e-tailers. Objectively seize scalable metrics whereas proactive e-services.</p>
-        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-        <button className=' btn btn-outline-primary border-2'>Read more</button>
-      </div>
-    </div>
-  </div>
-</div>
-     </div>
+
+     
       </div>
     </div>
   );
