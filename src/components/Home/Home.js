@@ -3,6 +3,7 @@ import Slider from './Slider/Slider';
 import './Home.css'
 import Team from './Team/Team';
 import About from '../About/About';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   const [services,setServices] = useState([]);
@@ -21,12 +22,16 @@ const Home = () => {
      <h1 className='my-5'><span className='border-3 border-bottom border-info fw-bold'>Our   Services</span> </h1>
 
      {services.map(service =>
-    <div class="card text-start" style={{width: '24rem'}}>
-    <img  src={service.img} class="card-img-top img" alt="..."/>
-    <div class="card-body">
-      <h5 class="card-title fw-bold">{service.name}</h5>
-      <p class="card-text">{service.description.slice(0,150)}</p>
-      <a href="/" class="btn btn-info">Read More </a>
+    <div 
+    key={service.id}
+     className="card text-start" style={{width: '24rem'}}>
+    <img  src={service.img} className="card-img-top img" alt="..."/>
+    <div className="card-body">
+      <h5 className="card-title fw-bold">{service.name}</h5>
+      <p className="card-text">{service.description.slice(0,150)}</p>
+      <Link to={`/service/${service.id}`}>
+      <button  className="btn btn-info">Read More </button>
+      </Link>
     </div>
   </div>
     )}

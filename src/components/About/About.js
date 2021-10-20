@@ -16,7 +16,7 @@ const About = () => {
            <h1 className='fw-bold'>We are Achieve the <br /> Success of Treatment</h1>
            <p>Dr Alicia Harley Chambers is is dedicated to providing her patients with <br /> the best possible care. We at MediCare are focused on helping you.  After <br /> receiving successful care for various aches and pains over the years,  <br />Dr Chambers found her calling to help others get well.</p>
          <Link to='/contact'>
-         <button id='contact-btn' className='border-0 px-5 py-3 bg-info text-light fw-bold'> Contact Us <i class="fas fa-chevron-right"></i></button>
+         <button id='contact-btn' className='border-0 px-5 py-3 bg-info text-light fw-bold'> Contact Us <i className="fas fa-chevron-right"></i></button>
          </Link>
          </div>
        </div>

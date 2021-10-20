@@ -10,10 +10,11 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import NotFound from './components/NotFound/NotFound';
 import Login from './components/Signin&Login/Login';
-import SignIn from './components/Signin&Login/SignIn';
 import AuthProvider from './Context/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Footer from './components/Footer/Footer';
+import ServicesDetails from './components/Services/ServiceDetails/ServicesDetails';
+import SignUp from './components/Signin&Login/SignUp';
 
 function App() {
   return (
@@ -31,12 +32,15 @@ function App() {
         <PrivateRoute path='/services'>
           <Services></Services>
         </PrivateRoute>
+        <PrivateRoute path='/service/:Id'>
+         <ServicesDetails></ServicesDetails>
+        </PrivateRoute>
         <Route path='/news'>
           <LatestNews></LatestNews>
         </Route>
-        <Route path='/pricing'>
+        <PrivateRoute path='/pricing'>
         <Pricing></Pricing>
-        </Route>
+        </PrivateRoute>
         <Route path='/about'>
           <About></About>
         </Route>
@@ -47,7 +51,7 @@ function App() {
           <Login></Login>
         </Route>
         <Route path='/signup'>
-          <SignIn></SignIn>
+        <SignUp></SignUp>
         </Route>
        <Route path='*'>
          <NotFound></NotFound>

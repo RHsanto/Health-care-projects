@@ -21,7 +21,7 @@
     "img": "https://media.istockphoto.com/photos/doctor-in-a-home-visit-to-a-senior-man-picture-id1289183630?b=1&k=20&m=1289183630&s=170667a&w=0&h=FMmzSvzUCtDAoqKn4idZNAfolbjsJFMigUI1IsnLhdc="
   },
   {
-    "id": 4,
+    "id":4,
     "message": "For the better you",
     "name": "  Dental services",
     "description": "General dentists prevent, evaluate, diagnose, and treat diseases of the oral cavity, as well as maintain the function and appearance of the teeth. Many oral diseases and abnormalities can indicate other diseases. A general dentist may refer patients to their physician or a specialist for further evaluation, or vice versa for treatment.Our residents come from all parts of the world, bringing you a global expertise coupled with the cutting edge research and knowledge of the University of Rochester Medical Center. There is no dental concern too small or large for the professionals at Eastman Dental sGeneral Dentistry Division.",
@@ -40,5 +40,33 @@
     "name": "Telehealth",
     "description": "Our telehealth visits enable you to safely have an appointment with a provider in the comfort of your home by clicking on a link to join them for a video call. Like an in-person visit, our provider can address your concerns and questions. Insurance is accepted, but patients may also choose self-pay for $49 (credit or debit).",
     "img": "https://media.istockphoto.com/photos/online-consultation-with-their-doctor-picture-id1245131025?b=1&k=20&m=1245131025&s=170667a&w=0&h=UfFnE-NI7GBFnb5n1IN9vM3e0K_dgSF7abilqCR-lgk="
+  },
+  {
+    "id": 7,
+    "designation": "Chief surgeon",
+    "name": "Bernice Ray",
+    "description": "Podcasting operational change management inside of workflows to establish a framework.",
+    "img": "https://media.istockphoto.com/photos/portrait-of-middle-aged-asian-female-doctor-standing-in-hospital-picture-id1271328839?b=1&k=20&m=1271328839&s=170667a&w=0&h=SIMzwoe8eu43OoY4M3ElZCMxW9MgDbZbVzMhh4VY2zM="
+  },
+  {
+    "id": 8,
+    "designation": "Neurosurgery",
+    "name": "Jason Boltom",
+    "description": "Keeping your eye on the ball while performing a deep dive on the start-up mentality.",
+    "img": "https://media.istockphoto.com/photos/team-of-doctors-and-nurses-in-hospital-picture-id1307543618?b=1&k=20&m=1307543618&s=170667a&w=0&h=hXpYmNYXnhdD36C-8taPQvdpM9Oj-woEdge8nvPrsZY="
+  },
+  {
+    "id": 9,
+    "designation": "Otolaryngology",
+    "name": "Marteen Denman",
+    "description": "Taking seamless key performance indicators offline to maximise the long tail.",
+    "img": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZG9jdG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"
+  },
+  {
+    "id": 10,
+    "designation": "Dental surgeon",
+    "name": "George Button",
+    "description": "Dramatically visualize customer directed convergence without revolutionary ROI.",
+    "img": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZG9jdG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"
   }
 ]
