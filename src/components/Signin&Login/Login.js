@@ -4,12 +4,16 @@ import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 
 const Login = () => {
-  const {signInUsingGoogle,handleEmailChange,handlePasswordChange,error,signInWithEmail}=useAuth();
+  const {signInUsingGoogle,handleEmailChange,handlePasswordChange,error2,signInWithEmail,email,password}=useAuth();
   const location = useLocation();
   const history = useHistory();
   const redirect_uri = location.state?.from || '/';
 
-
+  const handleLogin=e=>{
+    e.preventDefault(); 
+    signInWithEmail(email,password)
+    history.push(redirect_uri)
+  }
 
   const handleGoogleLogin=()=>{
     signInUsingGoogle()
@@ -21,11 +25,11 @@ const Login = () => {
   
   return (
     <div className="container">
-      <p className='text-danger fw-bold '>{error}</p>
+      <p className='text-danger fw-bold mt-5 fs-3 '>{error2}</p>
       <div className="row d-flex justify-content-center align-items-center mt-5 ">
         <div className="col-6">
   {/* here login submit from */}
-     <form onSubmit={signInWithEmail} >
+     <form onSubmit={handleLogin} >
           <div className="form-floating mb-3">
            <input  onBlur={handleEmailChange} type="email" className="form-control" id="floatingInput" placeholder="name@example.com" required />
               <label htmlFor="floatingInput">Email address</label>

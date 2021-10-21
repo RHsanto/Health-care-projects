@@ -11,6 +11,7 @@ const [user,setUser]=useState({})
 const [email,setEmail] =useState("");
 const [password,setPassword] =useState("");
 const [error,setError] = useState("")
+const [error2,setError2] = useState("")
 const [isLogIn,setIsLogIn] =useState(false);
 const googleProvider = new GoogleAuthProvider();
 
@@ -53,6 +54,7 @@ useEffect(()=>{
       return;
     }
      
+
     
   
     isLogIn? signInWithEmail(email,password) :createNewUser(email,password);
@@ -61,20 +63,18 @@ useEffect(()=>{
   }
 // here processLogin
   const signInWithEmail=(email,password)=>{
-   signInWithEmailAndPassword(auth,email,password)
-   .then(result=>{
-     setUser(result.user)
-   })
-     .catch(error => { 
-     setError('')    
-      });
+  return signInWithEmailAndPassword(auth,email,password)
+  .catch(error =>{
+    setError2('User-not-found')
+  })
+  
   }
 // here new user Create
   const createNewUser =(email,password)=>{
     return createUserWithEmailAndPassword(auth,email,password)
-    .catch(error => {
-      setError('');     
-      });
+    .catch(error =>{
+    setError('User Already Exists')
+      })
   }
 
 // here Email Change
@@ -92,9 +92,11 @@ useEffect(()=>{
 return{
   user,
   error,
+  error2,
   email,
   password,
   setError,
+  setError2,
   signInUsingGoogle,
   logOut,
   handleSignup,
