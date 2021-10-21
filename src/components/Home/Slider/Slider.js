@@ -1,7 +1,7 @@
 import React from 'react';
 import slider1 from '../../../images/1.jpg'
 import slider2 from '../../../images/2.jpg'
-import slider3 from '../../../images/news-1.jpg'
+import slider3 from '../../../images/Banner.jpg'
 import './Slider.css'
 
 const Slider = () => {
