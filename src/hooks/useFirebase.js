@@ -15,6 +15,7 @@ const [error2,setError2] = useState("")
 const [isLogIn,setIsLogIn] =useState(false);
 const googleProvider = new GoogleAuthProvider();
 
+
 const signInUsingGoogle =()=>{
  return  signInWithPopup(auth,googleProvider)
   .catch(error => {
@@ -54,13 +55,11 @@ useEffect(()=>{
       return;
     }
      
-
-    
-  
     isLogIn? signInWithEmail(email,password) :createNewUser(email,password);
 
       
   }
+
 // here processLogin
   const signInWithEmail=(email,password)=>{
   return signInWithEmailAndPassword(auth,email,password)

@@ -74,6 +74,7 @@ const Header = () => {
         <>  
             <img className='login-img rounded-circle me-2' src={user.photoURL} alt="" />
             <span className='user-name'>{user.displayName} </span>
+            
            {user.emailVerified? <></>:
             <span className='user-name'>{user.email} </span>}
             <button className='btn btn-outline-danger border-2 logout m-2' onClick={logOut}> Log-out</button> </>
