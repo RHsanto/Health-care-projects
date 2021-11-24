@@ -1,6 +1,4 @@
-
-
-My Project [Trust Care](https://ecstatic-meitner-95756d.netlify.app/).
+My Projects [Trust Care](https://ecstatic-meitner-95756d.netlify.app/)
 ## The service is our goal
 ## Our mission is to provide improved services
 ## You will get many benefits at low cost in one place
